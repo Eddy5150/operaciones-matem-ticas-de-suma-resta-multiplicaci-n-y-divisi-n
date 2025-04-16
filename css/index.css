@@ -1,0 +1,109 @@
+body {
+        font-family: Arial, sans-serif;
+        background-image: url("../img/1.gif");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+    }
+
+    .contenedor {
+        width: 90%;
+        max-width: 1200px;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+
+    .titulo {
+        font-size: 24px;
+        font-weight: bold;
+        padding: 10px;
+        background: #3734db;
+        color: white;
+        border-radius: 5px;
+        font-style: italic;
+        font-size: 35px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px;
+        background: #2c3e50;
+        color: white;
+        border-radius: 5px;
+        margin: 15px 0;
+        font-size: 25px;
+    }
+
+    .menu a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .contenido {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .operaciones {
+        background: #07ec0b;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 60%;
+        min-width: 300px;
+    }
+
+    .operaciones h2 {
+        margin: 0 0 10px 0;
+        font-size: 20px;
+        color: #2c3e50;
+    }
+
+    .izquierda {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .izquierda div {
+        background: #ecf0f1;
+        padding: 40px;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .derecha {
+        flex: 1;
+        background: #bdc6c7;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        min-width: 250px;
+    }
+
+    .footer {
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px;
+        background: #34365e;
+        color: white;
+        border-radius: 5px;
+        font-size: 35px;
+        height: 70px;
+        
+    }
+    footer p{
+        margin: 10px;
+    }
